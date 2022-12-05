@@ -1,0 +1,178 @@
+html {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    height: 100%;
+    margin: 0%;
+    overflow: scroll;
+}
+
+body {
+    background-image: url('https://m.psecn.photoshelter.com/img-get/I0000dCMOPXEywEI/s/900/900/ENPFLUS8776v7.jpg');
+    min-height: 100%;
+    margin: 0%;
+    font-family: 'Raleway', sans-serif;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+}
+
+#nav {
+    height: 9%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#nav p {
+    display: inline-block;
+    text-align: center;
+    color: aliceblue;
+    width: 15%;
+    height: 50%;
+    font-weight: bold;
+}
+
+#nav p:hover {
+    box-shadow: 20px 10px 20px 10px black;
+}
+
+
+
+#square {
+    color: whitesmoke;
+    width: 75%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    background-image: url('https://wallpaperaccess.com/full/2180133.jpg');
+    border-radius: 2px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width: fit-content;
+}
+
+
+
+header {
+    /* margin-top: 20%; */
+    text-align: center;
+}
+
+h1 {
+    font-size: 65px;
+    position: relative;
+    top: 30px
+}
+
+ #ps {
+    background-image: url('https://m.psecn.photoshelter.com/img-get/I0000dCMOPXEywEI/s/900/900/ENPFLUS8776v7.jpg');
+    width: 300px;
+ }
+
+#ps p {
+    margin-top: 22%;
+    color: rgb(100, 152, 145);
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#ps p:hover {
+    cursor: pointer;
+    height: 30%;
+    z-index: 1;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 3px 3px 2px rgb(164, 24, 24);
+}
+
+
+
+.code {
+    z-index: 2;
+    margin-top: 15%;
+    height: 20%px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.code:hover {
+    transform: perspective(800px) rotateY(25deg) scale(.8) rotateX(10deg);
+    transition: all 0.2s ease; 
+}
+
+.projectsText {
+    color: white;
+    z-index: 3;
+    transition: all 2s ease;
+    transform: perspective(800px) rotateY(25deg) scale(.8) rotateX(10deg);
+    font-size: 70px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+div#intro {
+    margin-top: 30%;
+    min-width: 100%;
+    min-height: 40%;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+#intro h2 {
+    font-size: 40px;
+}
+
+#intro h5 {
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 600px){
+    header {
+        width: 20%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+
+    }
+
+    header h1 {
+        margin-left: 30%;
+    }
+
+    header h2 {
+        margin-left: 30%;
+        text-align:start;
+    }
+
+    #ps {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-between;
+        background-image: none;
+        margin-left: 20%;
+    }
+
+    img.code {
+        width: 70%;
+        margin-top: 20%;
+    }
+
+    .intro h5 {
+        font-size: 20px;
+    }
+}

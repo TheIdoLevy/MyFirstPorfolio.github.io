@@ -1,0 +1,53 @@
+html, body {
+    height: 100%;
+    background-image: url('./resources/anfal-shamsudeen-Sf8g7a3duRY-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -2;
+}
+
+
+nav {
+    height: 1px;
+}
+
+.return {
+    position: relative;
+    z-index: 4;
+}
+
+#computer {
+    height: 800px;
+    width: 800px;
+    margin-left: 20%;
+    z-index: 1;
+    position: absolute;
+}
+
+.first {
+    margin-top: 10%;
+ }
+
+h1 {
+    position: relative;
+    text-align: left;
+    width: 100%;
+    z-index: 2;
+    margin-left: 30%;
+    font-family: 'Raleway', sans-serif;
+    line-height: 40px;
+ }
+
+ @media only screen and (max-width: 600px) {
+    #computer {
+        height: 800px;
+        width: 350px;
+    }
+
+    h1 {
+        font-size: 15px;
+        margin-left: 50%;
+        font-weight: bold;
+    }
+ }

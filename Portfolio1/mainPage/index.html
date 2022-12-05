@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ido Levy's Portfolio</title>
+        <link rel="stylesheet" href="style.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- <img  class="navMenu" src="./resources/icons8-menu-48.png" alt="Open Menu"> -->
+        <div id="nav">
+
+            <p class="aboutMe"><a href="#intro">About Me</a></p>
+            <p>Projects</p>
+            <script>
+                let intro = document.getElementById('intro');
+                let aboutMe = document.querySelector('a');
+                intro.onclick = function(){
+                    aboutMe.innerHTML = '<h1>Hello</h1>'
+                };
+            </script>
+            <p>Skills</p>
+            <p>Contact</p>
+
+        </div>
+        
+        <div id="square">
+
+
+            <header>
+                <h1>Ido Levy</h1>
+                <h2>Full Stack Engineer</h2>
+            </header>
+        
+
+            <div id="ps">
+                <div id="projects">
+                    <p>Projects</p>
+                </div>
+
+        
+                <div id="skills">
+                    <p>Skills</p>
+                </div>
+
+                <div id="contact">
+                    <a href="../Contact/contacts.html"><p>Contact Me</p></a>
+                </div>
+            </div>
+        </div>
+
+        <img class="code" src="https://belighted.com/assets/code.jpg" alt="Code">
+        <h2 class="projectsText">Projects</h2>
+
+        <div id="intro">
+            <h2>About Me</h2>
+            <h5>Hello. I am Ido Levy, a 14 year old full stack engineer. I love computer science, everything ranging from designing a CPU to building a frontend and backend wesite. Contact me, and together we will make your dream website come true.</h5>
+        </div>
+
+
+        <script src="app.js" defer></script>
+    </body>
+</html>
