@@ -1,0 +1,66 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: rebeccapurple;
+}
+
+#scoreboard {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15rem;
+    width: 35rem;
+    background-color: rgb(28, 122, 122);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#scoreboard h3 {
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+
+#topline {
+    height: 5rem;
+    width: 100%;
+    background-color: blue;
+    margin-top: 5%;
+}
+
+#ball {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    transition-property: bottom;
+    transition-duration: 2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ground {
+    height: 5rem;
+    width: 20rem;
+    background-color: bisque;
+    border-radius: 10px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bottomline {
+    height: 5rem;
+    width: 100%;
+    background-color: blue;
+    margin-top: 10px;
+}
